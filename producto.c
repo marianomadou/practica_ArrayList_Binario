@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <conio.h>
-#include "arrayList.h"
+#include "ArrayList.h"
 #include "producto.h"
 
 
@@ -173,3 +173,4 @@ int producto_ordenar(void* producto1, void* producto2)
     }
     return returnAux;
 }
+
