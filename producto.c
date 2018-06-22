@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <conio.h>
 #include "arrayList.h"
 #include "producto.h"
 
@@ -14,14 +15,14 @@ eProducto* producto_newProducto()
     if(producto != NULL)
     {
 
-        producto->codigo= getInt("Ingrese codigo:");
+        producto->codigo= getInt("\nIngrese codigo: ");
         descipcion(producto);
-        producto->importe= getFloat("Ingrese valor: ");
-        producto->cantidad=getInt("Ingrese cantidad: ");
+        producto->importe= getFloat("\nIngrese valor: ");
+        producto->cantidad=getInt("\nIngrese cantidad: ");
         producto->estado=0;
 
 
-        printf("Estado del producto:%d.\n",producto->estado);
+        printf("\nEstado del producto: %d.\n",producto->estado);
         returnAux= producto;
 }
 
@@ -55,7 +56,7 @@ int getInt(char msj[])
     getString(msj, numAux);
     while(!esNumerico(numAux))
     {
-        getString("Reingrese:", numAux);
+        getString("ATENCION! - Reingrese: ", numAux);
     }
     returnAux= atoi(numAux);
     return returnAux;
@@ -69,7 +70,7 @@ float getFloat(char msj[])
     getString(msj, numAux);
     while(!esFloat(numAux))
     {
-        getString("Reingrese:", numAux);
+        getString("ATENCION! - Reingrese: ", numAux);
     }
     returnAux= atof(numAux);
     return returnAux;

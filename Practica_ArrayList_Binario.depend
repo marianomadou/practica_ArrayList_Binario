@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1529667215 source:c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\practica_arraylist_binario\practica_arraylist_binario\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1529667254 c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\practica_arraylist_binario\practica_arraylist_binario\arraylist.h
+
+1529669360 source:c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\practica_arraylist_binario\practica_arraylist_binario\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"arrayList.h"
+	"producto.h"
+
+1529667381 c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\practica_arraylist_binario\practica_arraylist_binario\producto.h
+
+1529670344 source:c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\practica_arraylist_binario\practica_arraylist_binario\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"ArrayList.h"
+	"producto.h"
+
